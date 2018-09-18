@@ -1,3 +1,37 @@
-h1 {
-    color:red;
+body {
+    background-color: #D1DBBD;
+    padding-top:50px;
+}
+header {
+    text-align: center;
+}
+
+.container {
+    background-color: #FCFFF5;
+    border-radius: 10px;
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.container p {
+    text-align: center;
+}
+
+.form-row {
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+
+.form-row label {
+    flex-grow: 1;
+    text-align: right;
+    max-width: 30%;
+    margin-right:30px;
+}
+
+.form-entry-item {
+    max-width: 30%;
+    flex-grow: 1;
 }
